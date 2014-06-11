@@ -8,8 +8,17 @@ attributes:
     homebrewalt:
         apps:
             - git
+            - mysql
+            - redis
+            - memcached
+            - ruby
+            - ruby192
+            - ruby193
+            - ruby20
+            - jruby
         cask_apps:
             - google-chrome
+            - java7
         cask_fonts:   
             - inconsolata
     nodejs:
