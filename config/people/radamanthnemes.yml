@@ -5,7 +5,7 @@ recipes:
         - osxdefaults::set_computer_name
 attributes:
     osxdefaults:
-        computername: shrike_01
+        computername: shrike01
     homebrewalt:
         apps:
             - git-extras
