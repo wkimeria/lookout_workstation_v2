@@ -4,7 +4,6 @@ recipes:
         - applications::ssh_config
         - dotfiles::vim
         - applications::composer
-        - applications::mysql
         - dotfiles::workspace
     mac_os_x:
         - applications::sublime_text_3
@@ -33,7 +32,6 @@ recipes:
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
 attributes:
-    mysql_root_password: ""
     homebrewalt:
         apps:
             - git
