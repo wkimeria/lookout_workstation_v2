@@ -12,7 +12,6 @@ attributes:
             - redis
             - memcached
             - ruby
-            - ruby192
             - ruby193
             - ruby20
             - jruby
