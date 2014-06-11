@@ -44,7 +44,6 @@ attributes:
             - wget
             - pwgen
             - watch
-            - rsync
         cask_apps:
             - sourcetree
     nodejs:
