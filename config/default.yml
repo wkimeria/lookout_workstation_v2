@@ -12,9 +12,8 @@ attributes:
             - redis
             - memcached
             - ruby
-            - ruby193
-            - ruby20
             - jruby
+            - rbenv
         cask_apps:
             - google-chrome
             - java7
