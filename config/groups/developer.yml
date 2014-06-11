@@ -3,7 +3,6 @@ recipes:
         - dotfiles::gitconfig
         - applications::ssh_config
         - dotfiles::vim
-        - applications::composer
         - dotfiles::workspace
     mac_os_x:
         - applications::sublime_text_3
