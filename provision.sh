@@ -17,20 +17,20 @@ echo "User Name is : $USER_NAME"
 
 mkdir config/people
 
-echo "groups:" > "config/people/$COMPUTER_NAME.yml"
-echo "    - developer" >> "config/people/$COMPUTER_NAME.yml"
-echo "recipes:" >> "config/people/$COMPUTER_NAME.yml"
-echo "    mac_os_x:" >> "config/people/$COMPUTER_NAME.yml"
-echo "        - osxdefaults::set_computer_name" >> "config/people/$COMPUTER_NAME.yml"
-echo "attributes:" >> "config/people/$COMPUTER_NAME.yml"
-echo "    osxdefaults:" >> "config/people/$COMPUTER_NAME.yml"
-echo "        computername: $COMPUTER_NAME" >> "config/people/$COMPUTER_NAME.yml"
-echo "    homebrewalt:" >> "config/people/$COMPUTER_NAME.yml"
-echo "        apps:" >> "config/people/$COMPUTER_NAME.yml"
-echo "            - git-extras" >> "config/people/$COMPUTER_NAME.yml"
-echo "        cask_apps:" >> "config/people/$COMPUTER_NAME.yml"
-echo "            - sourcetree" >> "config/people/$COMPUTER_NAME.yml"
+echo "groups:" > "config/people/$USER_NAME.yml"
+echo "    - developer" >> "config/people/$USER_NAME.yml"
+echo "recipes:" >> "config/people/$USER_NAME.yml"
+echo "    mac_os_x:" >> "config/people/$USER_NAME.yml"
+echo "        - osxdefaults::set_computer_name" >> "config/people/$USER_NAME.yml"
+echo "attributes:" >> "config/people/$USER_NAME.yml"
+echo "    osxdefaults:" >> "config/people/$USER_NAME.yml"
+echo "        computername: $COMPUTER_NAME" >> "config/people/$USER_NAME.yml"
+echo "    homebrewalt:" >> "config/people/$USER_NAME.yml"
+echo "        apps:" >> "config/people/$USER_NAME.yml"
+echo "            - git-extras" >> "config/people/$USER_NAME.yml"
+echo "        cask_apps:" >> "config/people/$USER_NAME.yml"
+echo "            - sourcetree" >> "config/people/$USER_NAME.yml"
 
 kitchenplan provision
 
-rm config/people/$COMPUTER_NAME.yml
+rm config/people/$USER_NAME.yml
