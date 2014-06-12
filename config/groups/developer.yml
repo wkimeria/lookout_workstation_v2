@@ -38,6 +38,9 @@ attributes:
             - wget
             - pwgen
             - watch
+            - openssl
+            - libxml2
+            - nginx
         cask_apps:
             - sourcetree
     nodejs:
