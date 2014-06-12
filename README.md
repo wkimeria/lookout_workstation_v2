@@ -15,6 +15,7 @@ This is designed to prepare a workstation for use by a developer on any team at 
 1. Open Terminal
 1: Clone this repo into the /opt/kitchenplan directory on the new laptop
 
+```
 git clone https://github.com/wkimeria/lookout_workstation_v2.git /opt/kitchenplan
 ```
 1: Provision the laptop
