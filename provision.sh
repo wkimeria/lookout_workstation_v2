@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Set Variables
-echo -n "Enter USER_NAME for End User > "
+echo -n "Enter user name for End User > "
 read USER_NAME
 echo -n "Enter Computer Assignment Number > "
 read compnumber
