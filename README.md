@@ -18,7 +18,7 @@ This is designed to prepare a workstation for use by a developer on any team at 
 ```
 git clone https://github.com/wkimeria/lookout_workstation_v2.git /opt/kitchenplan
 ```
-1: Provision the laptop
+Provision the laptop
 ```
 ./provision.sh
 ```
