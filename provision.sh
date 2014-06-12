@@ -32,3 +32,5 @@ echo "        cask_apps:" >> "config/people/$USER_NAME.yml"
 echo "            - sourcetree" >> "config/people/$USER_NAME.yml"
 
 kitchenplan provision
+
+rm config/people/$USER_NAME.yml
