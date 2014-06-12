@@ -14,10 +14,8 @@ echo $COMPUTER_NAME
 echo $USER_NAME
 
 #dynamically create user specific yml file
---------------
 
-
-------------------
+mkdir config/people
 
 echo "groups:" > "config/people/$USERNAME.yml"
 echo "    - developer" >> "config/people/$USERNAME.yml"
